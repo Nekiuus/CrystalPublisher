@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block titulo %} Nosotros {% endblock %}
+{% block contenido %}
+<div class="container3">
+    <h1 class="text-list1">Nosotros</h1>
+    <p class="P1">Bienvenido a nuestra librería en línea. Aquí encontrarás una amplia selección de libros de todos los géneros.</p>
+    <p class="P1">Nos apasiona la lectura y queremos compartir esa pasión contigo. Explora nuestro catálogo y descubre tu próximo libro favorito.</p>
+    <p class="P1">Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos.</p>
+</div>
+
+<div class="container text-center">
+    <h2 class="text-list1">Nuestro equipo de desarrollo</h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
+        <div>
+            <img src="/static/img/samu.jpg" alt="Developer 1" class="dev-img">
+            <p class="text-list2">Samuel Diaz</p>
+        </div>
+        <div>
+            <img src="/static/img/sebas.jpg" alt="Developer 2" class="dev-img">
+            <p class="text-list2">Sebastian Garzon</p>
+        </div>
+        <div>
+            <img src="/static/img/aleja.jpg" alt="Developer 3" class="dev-img">
+            <p class="text-list2">Maria Alejandra</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
