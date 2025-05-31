@@ -1,2 +1,8 @@
-cd sistema
-py manage.py runserver
+# CrystalPublisher
+
+---
+
+## Como iniciar:
+
+- cd sistema
+- py manage.py runserver
