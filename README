@@ -1,2 +1,2 @@
-CD sistena
+cd sistema
 py manage.py runserver
