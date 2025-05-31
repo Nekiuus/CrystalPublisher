@@ -1,8 +1,8 @@
-# CrystalPublisher
+CrystalPublisher
 
 ---
 
-## Como iniciar:
+Como iniciar:
 
 - cd sistema
 - py manage.py runserver
